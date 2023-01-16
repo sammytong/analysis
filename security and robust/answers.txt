@@ -1,0 +1,11 @@
+How would you set up the company’s cloud account to run pipelines securely and robustly?
+
+Answers:
+
+Create a different account for a different purpose. 
+Separation of duty:
+
+Create or use the default AWS identity policy to control the pipeline credentials that only have limited access, (R, W or execute). 
+For example: AmazonS3ReadOnlyAccess
+
+Create the resource policy to control the IAM account can access the type of resource. Example: the pipeline needs to access the S3 resource by using the account that only allows to access S3 only.  
