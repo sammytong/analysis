@@ -1,1 +1,1 @@
-Please follow the document - install the pipeline.docx
+Please follow the document - Create the pipeline.docx
